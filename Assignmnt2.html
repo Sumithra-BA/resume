@@ -5,12 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        
+          }  
+          
+      </style>
 </head>
 <body>
     <!-- main div -->
     <div style=" margin: 100px 200px 50px 300px;">
 <!-- left div -->
-         <div style="float: left;width:500px;">
+         <div style="float: left;width:300px;">
              <!-- name -->
              <div>
                  <h1>Sumithra B A</h1>
@@ -38,30 +46,55 @@
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente veritatis tempore enim non, esciunt vel.</p>
                 </div>
               </div>
-              <!-- Education -->
               <div>
-                  <h3 style="color: blue;">Education</h3>
-                  <!-- school-1 -->
-                  <div>
-                      <h4>School name1-Degree</h4>
-                      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. numquam dolore deleniti repudiandae cum. Quis reiciendis dignissimos unde totam illo modi.</p>
-                  </div>
-                  <!-- School-2 -->
-                  <div>
-                    h4>School name1-Degree</h4>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. numquam dolore deleniti repudiandae cum. Quis reiciendis dignissimos unde totam illo modi.</p>
-                  </div>
-              </div>
+                <h5 style="color: blue; width: 300px;">EDUCATION</h5>
+                <div>
+                    <table>
+                        <tr>
+                            <th>Sl no</th>
+                            <th>Course</th>
+                            <th>Institution</th>
+                            <th>University</th>
+                            <th>YOP</th>
+                            <th>Percentage</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>BE</td>
+                            <td>Malnad college of engineering</td>
+                            <td>VTU</td>
+                            <td>2020</td>
+                            <td>6.92</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>PUC</td>
+                            <td>sree siddaganga pu college</td>
+                            <td>state board</td>
+                            <td>2016</td>
+                            <td>78%</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>10th</td>
+                            <td>Ganga Central School</td>
+                            <td>CBSC</td>
+                            <td>2014</td>
+                            <td>8.6</td>
+                        </tr>
+                    </table>
+                    <a href="http://127.0.0.1:5500/form/new.html">Connect me</a>
+                </div>
               <!-- Projects -->
               <div>
                   <h3 style="color: blue;">Project</h3>
                   <h5>project-Details</h5>
                   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias ex, pariatur facere in doloribus, omnis.</p>
-                  <a href="img.html">Details</a>
+                  <a href="img.html"; target="_self";>Details</a>
               </div>
        </div>
  <!-- right div -->
-         <div style="float: left;width: 200px;margin:10px;">
+         <div style="float: right;width: 200px;margin:10px;">
              <!-- adress -->
              <div>
                  <p>Cecilia Chapman</p>
